@@ -39,7 +39,7 @@ public class reqRatesCounter {
 			String fname = day.getName();
 			System.out.println(fname);
 			errorres += fname+"\t";
-			String dayname  = fname.split(".t")[0];
+			String dayname  = fname.split("\\.")[0];
 			String str;
 			int hour;
 			int errorNum;

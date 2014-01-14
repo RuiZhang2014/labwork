@@ -67,9 +67,9 @@ public class errorShowAction extends HttpServlet{
 					String[] strs2;
 					for (String str : strs1){
 						strs2 = str.split(",");
-						res += "{status : " + strs2[0] + " , url : '" + strs2[1] + "'}";
+						res += "{status : " + strs2[0] + " , url : '" + strs2[1] + "'}, ";
 					}
-					res += "}";
+					res += "]";
 					return res;
 				}
 			}
